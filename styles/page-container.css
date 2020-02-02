@@ -2,6 +2,8 @@
 .page-container {
   display: flex;
   justify-content: center;
+  background-color: #012f67;
+  color: white;
 }
 
 .page-container > .content-wrapper {
@@ -37,3 +39,5 @@
   justify-content: center;
   text-align: center;
 }
+
+
