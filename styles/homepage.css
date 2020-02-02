@@ -1,0 +1,133 @@
+/*  Hero Section Styles */
+.hero-section {
+    background-image: url(../images/Backgrounds/aboutBackground.jpeg);
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section > .top-heading {
+    padding: 4px 23px;
+    background-color: #012148;
+    color: #ffffff;
+    width: 256px;
+    border-radius: 25px;
+}
+
+.hero-section > .since-heading {
+    margin: 68px;
+    font-size: 2em;
+    color: #fbfbfb;
+    margin-top: 1px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+.hero-section > .bottom-heading {
+    margin: 109px;
+    font-size: 2em;
+    color: #fbfbfb;
+    margin-top: 1px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+/* features section styels */
+.features-section {
+    height: 400px;
+    background-image: url(../images/Backgrounds/woodPlanks.jpeg);
+    background-color: #cea135;
+    border-top: 10px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0 , 0.58);
+}
+
+.features-section > .columns-wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-top: 1px solid #868686;
+    border-right: 1px solid #868686;
+    border-bottom: 5px solid #868686;
+    border-left: 5px solid #868686;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size: 3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2):hover {
+    letter-spacing: 1px;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    letter-spacing: 2px;
+}
+/* video */
+#html5video {
+    width: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 25px;
+}
+
+
+/* slide bar reviews */
+/* .slider-container {
+    position: relative;
+   }
+    .slider-container .slider-parent {
+      height: 70vh;
+      max-width: 250px;
+      width: 100%;
+      background: #6C7A89;
+      position: absolute;
+      left: -250px;
+      top: 50px;
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      transition: .2s all linear;
+   }
+     .slider-container .slider-parent.active {
+        visibility: visible;
+        pointer-events: inherit;
+        transition: .2s all ease-in-out;
+        opacity: 1;
+        left: 0;
+   } */
+/* Footnotes */
+.footer {
+
+}

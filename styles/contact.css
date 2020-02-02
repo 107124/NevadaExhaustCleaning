@@ -1,0 +1,37 @@
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 400px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    box-shadow: -7px -5px 52px -12px rgba(0,0,0,0.91);
+}
+
+.company-metadata-sidebar-wrapper > .logo img:hover {
+    width: 400px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(226, 83, 0);
+    box-shadow: -7px -5px 52px -12px rgba(0,0,0,0.91);
+    transition: 1s;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #cea135;
+}
